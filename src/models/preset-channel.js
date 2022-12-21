@@ -20,5 +20,7 @@ export default class PresetChannel extends Model {
     this.inverted = null;
     this.intMinMax = null;
     this.logScale = null;
+    this.visible = null;
+    this.color = null;
   }
 }
