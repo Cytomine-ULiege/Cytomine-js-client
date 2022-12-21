@@ -32,6 +32,8 @@ export {default as JobParameter} from './models/job-parameter.js';
 export {default as JobTemplateAnnotation} from './models/job-template-annotation.js';
 export {default as JobTemplate} from './models/job-template.js';
 export {default as Ontology} from './models/ontology.js';
+export {default as Preset} from './models/preset.js';
+export {default as PresetChannel} from './models/preset-channel.js';
 export {default as ProcessingServer} from './models/processing-server.js';
 export {default as Project, ProjectMemberRole} from './models/project.js';
 export {default as ProjectConnection} from './models/project-connection.js';
@@ -84,6 +86,8 @@ export {default as JobParameterCollection} from './collections/job-parameter-col
 export {default as JobTemplateAnnotationCollection} from './collections/job-template-annotation-collection.js';
 export {default as JobTemplateCollection} from './collections/job-template-collection.js';
 export {default as OntologyCollection} from './collections/ontology-collection.js';
+export {default as PresetCollection} from './collections/preset-collection.js';
+export {default as PresetChannelCollection} from './collections/preset-channel-collection.js';
 export {default as ProcessingServerCollection} from './collections/processing-server-collection.js';
 export {default as ProjectCollection} from './collections/project-collection.js';
 export {default as ProjectConnectionCollection} from './collections/project-connection-collection.js';
